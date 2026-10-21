@@ -1,0 +1,7 @@
+cameras:
+  scene:
+    serial: REPLACE_ME_SCENE_CAMERA_SERIAL
+  wrist_l:
+    serial: REPLACE_ME_LEFT_WRIST_CAMERA_SERIAL
+  wrist_r:
+    serial: REPLACE_ME_RIGHT_WRIST_CAMERA_SERIAL

@@ -1,0 +1,28 @@
+{
+  "urdf": "piper_reference.urdf",
+  "base": "base_link",
+  "flange": "gripper_base",
+  "tcp": [
+    0.0,
+    0.0,
+    0.1279
+  ],
+  "approach": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "jaw": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "rest": [
+    0.0,
+    0.662,
+    -0.1,
+    -0.001,
+    -0.216,
+    0.001
+  ]
+}

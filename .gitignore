@@ -1,0 +1,57 @@
+# Runtime state and generated data
+.runtime/
+logs/
+data/
+rollouts/
+*.log
+*.jsonl
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.npz
+*.parquet
+*.zip
+*.pid
+*.status
+*.status.json
+
+# Python and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+manimux_env/
+
+# Local credentials and device-specific settings
+.env
+.env.*
+*.key
+*.pem
+secrets/
+my_robot*.yaml
+camera_mapping.yaml
+!examples/*.yaml
+
+# Third-party checkouts
+manimux/
+
+# Local backups and exploratory snapshots
+*.bak
+*.backup
+*.orig
+*_backup_*.py
+*.before*.py
+
+# Historical local snapshots and notes
+*before*.py
+*backup*.py
+POWERED_RUN.txt
+RETURN_ZERO.txt
+RIGHT_ONLY_SETUP.md
+arms/piper.pending.json
+arms/README_PENDING_TCP.txt
+run_dryrun_nominal.sh
